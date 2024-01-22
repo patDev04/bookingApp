@@ -1,0 +1,18 @@
+.filterDestinationBtn {
+  background-color: white;
+  border: var(--theme-orange) solid 0.1px;
+  height: 25px;
+  padding-inline: 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--theme-orange);
+  cursor: pointer;
+  margin-right: 10px;
+  transition: ease-in-out 0.3s;
+}
+
+.filterDestinationBtn:hover {
+  background-color: whitesmoke;
+}

@@ -1,0 +1,139 @@
+.searchFilter {
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.InputContainer {
+  display: grid;
+  grid-template-columns: 0.7fr 0.5fr 0.5fr 56px;
+  justify-content: space-between;
+  grid-template-rows: 56px;
+  position: relative;
+  column-gap: 5px;
+}
+
+.searchIcon {
+  font-size: 24px;
+  color: white !important;
+}
+
+.seachButton {
+  background: var(--theme-orange);
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* card */
+
+.card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 248px 4fr;
+  grid-template-rows: 278px;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.cardInfo {
+  padding: 10px 22px 10px 15px;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rateContainer {
+  display: flex;
+}
+
+.night {
+  display: flex;
+  align-items: center;
+}
+
+.nightIcon {
+  margin-right: 5px;
+}
+
+.cancellation {
+  list-style: none;
+  color: green;
+  margin: 5px 0;
+}
+
+.points {
+  padding-top: 10px;
+  border-top: var(--divider);
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pointsList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 70%;
+  background-color: rgba(253, 120, 58, 0.044);
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.list {
+  padding: 5px 10px;
+  margin: 2px;
+  background-color: rgba(253, 120, 58, 0.067);
+  text-align: center;
+  border-radius: 4px;
+  color: #ff9767;
+}
+
+.cancelWrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.cardPriceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cardPrice {
+  /* color: var(--theme-orange); */
+}
+
+.btn {
+  background-color: var(--theme-orange);
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 4px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 36px;
+  margin: 5px 0;
+}

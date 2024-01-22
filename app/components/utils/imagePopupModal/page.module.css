@@ -1,0 +1,27 @@
+.popup {
+  position: relative !important;
+  top: 20px !important;
+  font-weight: 600;
+  text-align: center;
+  z-index: 999;
+}
+.popImageContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 0;
+  padding: 20px 0;
+  height: 78vh !important;
+  overflow: scroll;
+  overflow-x: hidden;
+  gap: 5px;
+  border-top: rgb(224, 224, 224) solid 0.1px;
+}
+.popupImage {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.tag {
+  background-color: var(--theme-orange);
+  height: 32px;
+  width: 32px;
+  border-radius: 6px 6px 0px 6px;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 2px;
+}

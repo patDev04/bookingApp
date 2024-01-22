@@ -1,0 +1,45 @@
+.itemHeader {
+  font-size: 36px;
+}
+
+.rateWrapper {
+  border-bottom: rgb(226, 226, 226) solid 0.1px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.rateContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.rateViewBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.rateViewBoxInner {
+  display: flex;
+  align-items: center;
+}
+
+.rateText {
+  color: #56cf56;
+  font-size: 16px;
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+.viewBtn {
+  color: var(--theme-orange);
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: transparent;
+  margin: 5px 0;
+  text-transform: capitalize;
+}

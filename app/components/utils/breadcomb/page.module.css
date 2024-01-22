@@ -1,0 +1,26 @@
+.breadcrumbWrapper {
+  padding: 20px 0;
+}
+
+.breadcrumb {
+  display: flex;
+  font-size: 12px;
+}
+
+.breadcrumbLink {
+  color: grey;
+}
+
+.breadcrumbLink:hover {
+  text-decoration: underline;
+}
+
+.currentLocation {
+  color: back !important;
+}
+
+.chevronRight {
+  margin: 0 5px;
+  color: grey !important;
+  font-size: 8px;
+}

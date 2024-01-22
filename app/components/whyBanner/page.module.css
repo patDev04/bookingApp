@@ -1,0 +1,39 @@
+.whyContainer {
+  border: solid rgb(214, 214, 214) 0.1px;
+  height: 372px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  position: relative;
+}
+
+.whyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.whyContent {
+}
+.whyHeader {
+  font-size: 20px;
+}
+
+.whysubHeader {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.whytext {
+  font-size: 14px;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  height: 35vh;
+}

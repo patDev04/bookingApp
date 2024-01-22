@@ -1,0 +1,22 @@
+.inputGroup,
+.starContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.inputGroup input [type="checkbox"] {
+  background-color: yellow;
+}
+
+.radioCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.length {
+  margin-right: 8px;
+}

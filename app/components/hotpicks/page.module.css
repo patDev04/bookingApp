@@ -1,0 +1,63 @@
+.hotpickContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.hotpickCard {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.132);
+  overflow: hidden;
+}
+
+.header {
+  font-size: 18px;
+}
+
+.hotpickCardImage {
+  width: 100%;
+  height: 210px;
+  position: relative;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.hotpickCardInfo {
+  padding: 10px;
+}
+.hotpickCardLocation {
+  font-size: 11px;
+  color: grey;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.hotpickCardStars {
+  font-size: 3px;
+}
+
+.hotpickCardRate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.hotpickCardTag {
+  display: flex;
+  align-items: center;
+}
+
+.hotpickCardPrice {
+  font-size: 18px;
+  text-align: right;
+  margin-top: 25px;
+}
+
+.hotpickCardpp {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 2px;
+  margin-right: 6px;
+}

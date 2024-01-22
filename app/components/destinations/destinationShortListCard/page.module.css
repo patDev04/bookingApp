@@ -1,0 +1,45 @@
+.shortlistContainer {
+  background-color: white;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 10px;
+  border-top: var(--divider);
+  padding: 15px 0;
+  padding-bottom: 50px;
+}
+
+.shortlistWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.shortlistWrapperList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.shortlistWrapper:nth-child(1) {
+  padding-left: 20px;
+}
+
+.shortlistCard {
+}
+
+.price {
+  color: var(--theme-orange);
+}
+
+.cardImage {
+  height: 25vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.cardContent {
+  padding: 10px 0;
+}

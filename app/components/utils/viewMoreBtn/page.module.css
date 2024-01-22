@@ -1,0 +1,9 @@
+.viewMoreBtn {
+  font-size: 14px;
+  color: var(--theme-orange);
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: 4
+  00;
+  position: relative;
+}

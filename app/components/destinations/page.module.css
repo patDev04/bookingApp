@@ -1,0 +1,50 @@
+.destinationsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+}
+
+.destinationsCard {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.imageArea {
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+}
+
+.destinationsImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+  position: relative;
+  transition: ease-in-out 0.5s;
+  transform: scale(1.1);
+}
+
+.destinationsImage:hover {
+  transform: scale(1);
+}
+
+.desclabel {
+  position: absolute;
+  padding: 10px;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 50px rgb(0, 0, 0), 0px 0px 25px rgb(0, 0, 0),
+    0px 0px 12px rgb(0, 0, 0);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5px;
+}

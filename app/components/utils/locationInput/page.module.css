@@ -1,0 +1,90 @@
+.locationBar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.locationLabel {
+  font-size: 15px;
+  margin-bottom: 3px;
+  color: grey;
+  position: absolute;
+  margin-left: 10px;
+  padding-top: 2px;
+  top: 0;
+  left: 0;
+}
+
+.input::placeholder {
+  color: rgb(189, 189, 189);
+  font-weight: 300;
+  position: relative;
+}
+
+.input {
+  height: 56px;
+  background-color: whitesmoke;
+  padding: 10px 10px 0px;
+  font-size: 18px;
+  border-radius: 6px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.input:focus {
+  outline: solid 1px rgb(105, 105, 105);
+}
+
+.iconWarapper {
+  padding: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.closeIcon {
+  cursor: pointer;
+  font-size: 18px;
+  color: grey !important;
+  transition: ease.2s;
+}
+
+.searchIcon {
+  font-size: 18px;
+}
+
+.closeIcon:hover {
+  color: initial !important;
+}
+
+.result {
+  background-color: white;
+  list-style: none;
+  height: 200px;
+  margin-top: 10px;
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.35);
+  border-radius: 6px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
+  left: 0;
+  width: 400px;
+  padding: 15px 0;
+  z-index: 2;
+}
+
+.result::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  padding: 10px 5px;
+  transition: ease 0.2s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.list:hover {
+  background-color: whitesmoke;
+}

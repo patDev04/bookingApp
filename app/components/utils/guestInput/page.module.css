@@ -1,0 +1,54 @@
+.dateContainer {
+  background-color: whitesmoke;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 2.5fr 2.5fr;
+  column-gap: 2px;
+}
+
+.dateBar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dateBar:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 1px;
+  background-color: rgb(204, 204, 204);
+}
+
+.dateLabel {
+  font-size: 15px;
+  margin-bottom: 3px;
+  color: grey;
+  position: absolute;
+  margin-left: 10px;
+  padding-top: 2px;
+  top: 0;
+  left: 0;
+}
+
+.input::placeholder {
+  color: rgb(189, 189, 189);
+  font-weight: 300;
+  position: relative;
+}
+
+.input {
+  height: 56px;
+  background-color: whitesmoke;
+  padding: 10px 10px 0px;
+  font-size: 18px;
+  border-radius: 6px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.input:focus {
+  outline: solid 1px rgb(105, 105, 105);
+}

@@ -1,0 +1,62 @@
+.rateContainer {
+  display: flex;
+  align-items: center;
+}
+
+.ratetxt,
+.rateCount {
+  margin-left: 8px;
+}
+
+.rateCount {
+  color: grey;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+.progressWrapper {
+  list-style: none;
+}
+.progressContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.progressheading {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.reviewBtn {
+  margin-top: 30px;
+  background-color: transparent;
+  color: var(--theme-orange);
+  text-transform: capitalize;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* review-filter */
+.filterContainer {
+  margin: 30px 0;
+  padding: 10px 0;
+  border-top: var(--divider);
+  border-bottom: var(--divider);
+}
+
+.filterInputCon {
+  display: flex;
+  margin: 10px 0;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+/* messages */
+
+.msgCon {
+  background-color: rgb(255, 113, 141);
+  margin: 10px 0;
+  height: 20vh;
+}

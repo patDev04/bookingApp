@@ -1,0 +1,20 @@
+.containerWrap {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  border-radius: var(--radius_8);
+  box-shadow: var(--box-shadow);
+}
+
+.content,
+.wrapper {
+  padding: 20px;
+}
+
+.wrapper {
+  border-bottom: var(--divider);
+}
+
+.containerHeading {
+  text-transform: capitalize;
+}
